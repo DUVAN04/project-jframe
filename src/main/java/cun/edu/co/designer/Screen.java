@@ -159,7 +159,7 @@ public class Screen extends javax.swing.JFrame {
         
         if(average <= 2.9){
             message = " No aproved";
-        }else if(average >=3.9 && average <=4.0){
+        }else if(average >=3.0 && average <=4.0){
             message = " Aproved";
         }else if(average > 4.0){
             message = " Exelent Aproved";
